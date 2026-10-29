@@ -35,3 +35,9 @@ Graphic design pricing is shown as starting from R30. The blog page is intention
 
 ## Portfolio demo websites
 The `demo/` directory contains the interactive demo websites imported from the previous Zapify Designs website. Open the Portfolio page and select “Demo concepts” to browse them. Each card has an embedded preview and an “Open full demo” link. Keep the `demo/` directory alongside the main HTML pages when deploying.
+
+## SEO files
+
+- `sitemap.xml` lists the seven main public pages.
+- `robots.txt` allows crawler access and points to the sitemap.
+- These files assume the site is published at `https://www.zapifydesigns.co.za/`. Update the domain in both files if your canonical domain differs.
