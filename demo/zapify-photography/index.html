@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1c1b19">
+  <meta name="description" content="Zapify Photography — thoughtful photography, honest moments, timeless stories.">
+  <title>Zapify Photography — Every Moment, Kept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="wordmark" href="#top" aria-label="Zapify Photography home">ZAPIFY<span>PHOTOGRAPHY</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top">Home</a><a href="#welcome">About us</a><a href="#stories">News</a><a href="#stories">Gallery</a><a href="#stories">Blog</a><a href="#contact">Contacts</a>
+      <a class="nav-phone" href="tel:+27000000000">✆ &nbsp; +27 00 000 0000</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-label="Zapify Photography introduction">
+      <div class="hero-shade"></div><div class="hero-content">
+        <div class="gold-rule"></div><p class="eyebrow">Stories worth remembering</p><h1>ZAPIFY</h1><p class="hero-subtitle">PHOTOGRAPHY STUDIO</p><div class="gold-rule"></div>
+        <p class="hero-copy">Honest moments. Beautiful light. Photographs that bring you back.</p>
+      </div><a class="scroll-cue" href="#welcome" aria-label="Scroll to welcome"><span></span></a>
+    </section>
+    <section class="welcome section" id="welcome">
+      <div class="section-mark"></div><p class="eyebrow">A little about us</p><h2>WELCOME</h2>
+      <p class="welcome-copy">We believe the best photographs are more than pictures — they are pieces of life, kept forever. From quiet details to once-in-a-lifetime celebrations, we capture your story with warmth, care, and a timeless eye. Take a look around, find the moments that speak to you, and let’s make something meaningful together.</p>
+      <a class="outline-button" href="#stories">READ MORE</a>
+    </section>
+    <section class="stories" id="stories" aria-label="Photography collections">
+      <a class="story story-one" href="#contact"><span class="story-line"></span><h3>CATALOG<br>SHOOT</h3><span class="story-line"></span><span class="story-link">Explore collection ↗</span></a>
+      <a class="story story-two" href="#contact"><span class="story-line"></span><h3>SWEET<br>OCTOBER</h3><span class="story-line"></span><span class="story-link">Explore collection ↗</span></a>
+      <a class="story story-three" href="#contact"><span class="story-line"></span><h3>CRUISE<br>WORKSHOP</h3><span class="story-line"></span><span class="story-link">Explore collection ↗</span></a>
+      <a class="story story-four" href="#contact"><span class="story-line"></span><h3>WEDDING<br>PHOTOGRAPHY</h3><span class="story-line"></span><span class="story-link">Explore collection ↗</span></a>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="section-mark"></div><p class="eyebrow">Let's create something lasting</p><h2>CONTACT US</h2>
+      <form id="contact-form">
+        <label class="sr-only" for="name">Name</label><input id="name" name="name" placeholder="Name*" required>
+        <label class="sr-only" for="email">Email</label><input id="email" name="email" type="email" placeholder="Email*" required>
+        <label class="sr-only" for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="Phone">
+        <label class="sr-only" for="message">Message</label><textarea id="message" name="message" placeholder="Message*" rows="3" required></textarea>
+        <button class="outline-button submit-button" type="submit">SEND</button><p class="form-note" id="form-note" aria-live="polite">We'd love to hear what you have in mind.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="footer"><a class="wordmark footer-mark" href="#top">ZAPIFY<span>PHOTOGRAPHY</span></a><p>Thoughtfully captured. Beautifully remembered.</p><a href="#top" class="back-top">BACK TO TOP ↑</a><small>© <span id="year"></span> Zapify Photography. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
